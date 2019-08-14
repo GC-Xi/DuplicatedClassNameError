@@ -10,3 +10,8 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
     }
 }
+
+// Private functions is fine
+private fun test() {}
+// Error here
+private class Data
